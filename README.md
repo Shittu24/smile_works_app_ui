@@ -1,42 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SmileWorksApp – Frontend
 
-## Getting Started
+SmileWorksApp is a full-stack dental practice management system built by a team of six entry-level developers and two experienced software engineers. This UI was developed using **Next.js (React)** to provide an intuitive, modern, and responsive experience for dental staff, including dentists, hygienists, and front desk administrators.
 
-First, install saved dependencies:
+The platform supports critical features like patient scheduling, treatment tracking, billing, inventory, insurance verification, and administrative user management — all tailored for real-world clinical workflows.
 
-```bash
-npm install
-```
+---
 
-Then run the development server:
+## 🖥️ Key Frontend Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Dashboard Overview**
+  - Today's appointments (with status: upcoming, cancelled, missed)
+  - Weekly appointment trends visualized as a bar chart
+  - Quick-access links (Create Patient, Cost Estimation, Start Treatment)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Patient Management**
+  - Search patients by name, ID, or DOB
+  - View basic patient details and treatment history
+  - Edit patient info and start new treatments
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Treatment Workflow**
+  - Cost estimation based on selected procedure (e.g., braces, fillings, cleaning)
+  - Start treatment and record status updates
+  - View and manage billing history
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Inventory System**
+  - Track product name, stock levels, threshold, brand, and category
+  - Add new products and place orders
+  - Real-time updates on supply usage
 
-## Learn More
+- **Scheduling**
+  - Create and view appointments (day view & week view)
+  - Visual indicators for appointment status (done, cancelled, ongoing)
+  - Filter by doctor, patient, and time
 
-To learn more about Next.js, take a look at the following resources:
+- **Insurance & Billing**
+  - View insurance info per patient
+  - Generate billing records tied to treatment events
 
--  [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--  [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **User & Admin Panel**
+  - View staff list: hygienists, dentists, front desk staff
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔧 Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Frontend Framework:** Next.js (React)
+- **UI Language:** JavaScript (TypeScript optional)
+- **Component Libraries:** Tailwind CSS / custom styling (if used)
+- **Data Handling:** API calls to backend via Axios or Fetch
+- **Dev Tools:** VS Code, GitHub, Postman
+
+---
+
+## 🚀 Getting Started (Local Setup)
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/SmileWorksApp-frontend.git
+   cd SmileWorksApp-frontend
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the Development Server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Visit in Browser**
+   Open [http://localhost:3000](http://localhost:3000) to view the app.
+
+---
+
+## 👤 My Contributions
+
+- Built the treatment schedule information UI components
+- Connected frontend components with backend APIs 
+- Participated in team standups, sprint planning, and UI reviews with peers and mentors
+
+---
+
+## 📝 Notes
+
+This frontend app was developed as part of a team project focused on real-world clinic management workflows. Login credentials are provisioned manually—self-registration is disabled for security and organizational access control.
+
+> This project is a simulation of a production-level platform built for learning, mentorship, and career readiness.
