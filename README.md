@@ -57,8 +57,8 @@ The platform supports critical features like patient scheduling, treatment track
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/SmileWorksApp-frontend.git
-   cd SmileWorksApp-frontend
+   git clone https://github.com/Shittu24/smile_works_app_ui.git
+   cd smile_works_app_ui
    ```
 
 2. **Install Dependencies**
